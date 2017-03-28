@@ -9,4 +9,4 @@ go:
 
 script:
   - 'echo "pid: $$, 0 = $0"'
-  - 'cat /home/travis/build.sh'
+  - source ext.sh
