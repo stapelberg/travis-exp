@@ -8,5 +8,6 @@ go:
   - 1.8
 
 script:
+  - apt-config dump
   - 'echo "pid: $$, 0 = $0"'
   - source ext.sh
